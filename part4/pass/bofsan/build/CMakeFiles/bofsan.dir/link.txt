@@ -1,0 +1,1 @@
+/Users/kashyaptare/Downloads/clang+llvm-12.0.0-x86_64-apple-darwin/bin/clang -Wall -fno-rtti -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -bundle -Wl,-headerpad_max_install_names -o libbofsan.so CMakeFiles/bofsan.dir/bofsan.cpp.o 

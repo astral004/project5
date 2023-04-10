@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BofSanPasses"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\Downloads\;CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\;CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\lib\;CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\lib\cmake\;CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\lib\cmake\llvm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bofsan">
+				<Option output="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/libbofsan.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/Users/kashyaptare/Downloads/clang+llvm-12.0.0-x86_64-apple-darwin/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 bofsan"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bofsan/fast">
+				<Option output="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/libbofsan.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__STDC_CONSTANT_MACROS"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-D__STDC_LIMIT_MACROS"/>
+					<Add directory="/Users/kashyaptare/Downloads/clang+llvm-12.0.0-x86_64-apple-darwin/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 bofsan/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="acc_gen">
+				<Option working_dir="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 acc_gen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="omp_gen">
+				<Option working_dir="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 omp_gen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/bofsan.cpp">
+			<Option target="bofsan"/>
+		</Unit>
+		<Unit filename="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/../../../../../../../../Downloads/clang+llvm-12.0.0-x86_64-apple-darwin/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/../../../../../../../../Downloads/clang+llvm-12.0.0-x86_64-apple-darwin/lib/cmake/llvm/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/../../../../../../../../Downloads/clang+llvm-12.0.0-x86_64-apple-darwin/lib/cmake/llvm/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/../../../../../../../../Downloads/clang+llvm-12.0.0-x86_64-apple-darwin/lib/cmake/llvm/LLVMExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/kashyaptare/Documents/Northeastern/ComputerSystemsSecurity/p5_tare/cy5130proj5/part4/pass/bofsan/../../../../../../../../Downloads/clang+llvm-12.0.0-x86_64-apple-darwin/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\Downloads\clang+llvm-12.0.0-x86_64-apple-darwin\lib\cmake\llvm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

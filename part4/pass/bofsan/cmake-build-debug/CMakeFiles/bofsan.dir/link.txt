@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -Wall -fno-rtti -g -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -bundle -Wl,-headerpad_max_install_names -o libbofsan.so CMakeFiles/bofsan.dir/bofsan.cpp.o 
